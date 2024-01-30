@@ -40,6 +40,8 @@ WORKDIR /optbnn
 # RUN python setup.py install
 RUN pip install .
 
+RUN pip install numpyro flax tinygp
+
 # Add non-root user
 RUN useradd -m -s /bin/bash -N -u $USER_UID $USER_NAME
 ENV HOME=/home/$USER_NAME
