@@ -1,3 +1,8 @@
+# Functional priors via NumPyro
+An attempt at taking the core concept of functional priors from the paper *"All You Need is a Good Functional Prior for Bayesian Deep Learning"* and forked implementation, and implementing it with existing tools in NumPyro.
+
+This attempts to align the concept with the PPL framework and samplers. Likely I have made some poor judgement calls on substituting methodology, but it appears it has potential to significantly improve the performance of BNNs built with NumPyro. Work in progress.
+
 # All You Need is a Good Functional Prior for Bayesian Deep Learning
 
 Code for the paper *"All You Need is a Good Functional Prior for Bayesian Deep Learning"*.
